@@ -2,10 +2,10 @@
 # Generator token: 10BE3573-1514-4C36-9D1C-5A225CD40393
 
 rcpp_hello_world <- function() {
-    .Call(`_TAKiT_rcpp_hello_world`)
+    .Call('_TAKiT_rcpp_hello_world', PACKAGE = 'TAKiT')
 }
 
 frequency <- function(x) {
-    .Call(`_TAKiT_frequency`, x)
+    .Call('_TAKiT_frequency', PACKAGE = 'TAKiT', x)
 }
 
